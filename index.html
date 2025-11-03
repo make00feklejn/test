@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Discord Friends Clone</title>
+</head>
+<body style="margin:0; padding:0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background:#36393f; color:#dcddde; display:flex; height:100vh;">
+
+  <!-- Left Sidebar -->
+  <div style="width:72px; background:#202225; display:flex; flex-direction:column; align-items:center; padding:12px 0; gap:10px;">
+    <div style="width:48px; height:48px; background:#5865f2; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:24px; cursor:pointer;">&#x1F47B;</div>
+    <div style="width:48px; height:48px; background:#36393f; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:24px; cursor:pointer;">+</div>
+    <div style="width:48px; height:48px; background:#36393f; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:24px; cursor:pointer;">&#x1F4C5;</div>
+    <div style="width:48px; height:48px; background:#36393f; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:24px; cursor:pointer;">&#x1F4E5;</div>
+  </div>
+
+  <!-- Main Friends Column -->
+  <div style="flex:1; display:flex; flex-direction:column; background:#2f3136;">
+    <!-- Top Bar -->
+    <div style="height:48px; background:#2f3136; display:flex; align-items:center; padding:0 16px; font-weight:bold; border-bottom:1px solid #202225;">Friends</div>
+
+    <!-- Notification Banner -->
+    <div style="background:#2c5234; color:#fff; padding:8px 16px; font-size:14px; display:flex; justify-content:space-between; align-items:center;">
+      Please check your email to verify your account and keep your current username.
+      <button style="background:#fff; color:#2c5234; border:none; padding:4px 8px; border-radius:4px; cursor:pointer;">Resend Email</button>
+    </div>
+
+    <div style="flex:1; display:flex;">
+      <!-- Left Column: Friend Menu -->
+      <div style="width:220px; background:#202225; padding:16px; display:flex; flex-direction:column; gap:12px;">
+        <input type="text" placeholder="Find or start a conversation" style="width:100%; padding:8px; border-radius:4px; border:none; background:#2f3136; color:#dcddde; outline:none;">
+        <div style="padding:8px; cursor:pointer; background:#36393f; border-radius:4px;">Friends</div>
+        <div style="padding:8px; cursor:pointer; display:flex; justify-content:space-between; align-items:center;">Nitro <span style="background:#ff00ff; color:#fff; font-size:10px; padding:2px 4px; border-radius:4px;">NEW</span></div>
+        <div style="padding:8px; cursor:pointer; display:flex; justify-content:space-between; align-items:center;">Shop <span style="background:#ff0000; color:#fff; font-size:10px; padding:2px 4px; border-radius:4px;">NEW</span></div>
+        <div style="padding:8px; cursor:pointer;">Quests</div>
+
+        <div style="border-top:1px solid #202225; padding-top:8px; display:flex; align-items:center; gap:8px; cursor:pointer;">
+          <div style="width:32px; height:32px; background:#7289da; border-radius:50%;"></div>
+          <span>Roman</span>
+        </div>
+      </div>
+
+      <!-- Middle Column: Friend List -->
+      <div style="flex:1; padding:16px;">
+        <div style="display:flex; align-items:center; gap:8px; margin-bottom:16px;">
+          <button style="background:#5865f2; color:#fff; border:none; border-radius:4px; padding:4px 8px; cursor:pointer;">Add Friend</button>
+        </div>
+        <input type="text" placeholder="Search" style="width:100%; padding:8px; border-radius:4px; border:none; background:#202225; color:#dcddde; margin-bottom:12px; outline:none;">
+        
+        <div style="margin-bottom:8px; color:#72767d; font-size:12px;">Online - 1</div>
+        <div style="display:flex; align-items:center; gap:8px; padding:8px; border-radius:4px; background:#36393f; margin-bottom:8px; cursor:pointer;">
+          <div style="width:32px; height:32px; border-radius:50%; background:#ff69b4;"></div>
+          <div>
+            <div style="font-weight:bold; color:#fff;">Roman</div>
+            <div style="color:#43b581; font-size:12px;">Online</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Active Now -->
+      <div style="width:280px; background:#2f3136; padding:16px; border-left:1px solid #202225;">
+        <div style="font-weight:bold; margin-bottom:8px;">Active Now</div>
+        <div style="font-size:12px; margin-bottom:16px;">This section could be better<br>We can customise 'Active Now' and other parts of Discord, based on information like who you talk to and what games you play. You can change this at any time in Privacy Settings.</div>
+        <button style="background:#5865f2; color:#fff; border:none; border-radius:4px; padding:6px 12px; margin-bottom:8px; cursor:pointer;">Yes, count me in!</button>
+        <button style="background:#36393f; color:#fff; border:none; border-radius:4px; padding:6px 12px; cursor:pointer;">No, thanks</button>
+        <a href="ADMINONLY.zip" download>Download func Admin only</a>
+
+        <div style="margin-top:24px; font-size:12px; color:#72767d;">It's quiet for now...<br>When a friend starts an activity – like playing a game or hanging out on voice – we'll show it here!</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
